@@ -1,0 +1,339 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body 
+{
+  margin: auto;
+  width: 90%;
+  height: auto;
+  background: #cad2c5;
+  color: #2f3e46;
+}
+
+#container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+
+}
+
+ul
+{
+  list-style: none;
+}
+
+a 
+{
+  padding: 5px;
+  text-decoration: none;
+  color: #cad2c5;
+}
+
+aside
+{
+  width: 15%;
+  height: auto;
+  padding-top: 50px;
+  background: #84a98c;
+  background-image: url("../img/lateral.jpeg");
+}
+
+aside a 
+{
+  color:  #cad2c5;
+  background-color: #2f3e46;
+  border-radius: 5px;
+}
+
+#lista-desplazable
+{
+  margin-top: 50px;
+  top: 50px;
+  position: sticky;
+}
+
+li 
+{
+  text-decoration: none;
+  margin: 15px;
+}
+
+header 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: #354f52;
+  color: #cad2c5;
+}
+
+#div-logo
+{
+  width: 25%;
+  height: auto;
+}
+
+#foto-logo {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+#title
+{
+  width: 75%;
+  height: auto;
+}
+
+h1
+{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+nav
+{
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: auto;
+  background: #354f52;
+}
+
+main{
+  width: 85%;
+  height: auto;
+}
+
+section
+{
+  margin: 50px 10px;
+}
+
+h2{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+  color: #ff5722;
+}
+
+p {
+display: flex;
+  padding: 10px 10px 20px 10px;
+}
+
+.div-subtitulos {
+  width: 100%;
+  height: 150px;
+  margin: 20px 0px 50px 0px;
+  background: #2f3e46;
+}
+
+.contenedor-articulo
+{
+  padding: 10px 10px 20px 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fotos
+{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+#tarjetas
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta
+{
+  margin: 10px;
+  background: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px;
+}
+
+/* Una mejora es cambiar con javascript el comportamiento hover, por que cuando paso el mouse por la foto de la tarjeta no me cambia el color del texto del párrafo de la tarjeta*/
+
+.tarjeta:hover
+{
+  background: #2f3e46;
+}
+
+.foto-tarjeta
+{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.parrafo-tarjeta
+{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+.parrafo-tarjeta:hover
+{
+  color: #d9d9d9;
+}
+
+#sobre-mi {
+  background-image: url("../img/sobremi.jpeg");
+  background-size: cover;
+}
+
+#proyectos {
+  background-image: url("../img/proyectos.jpeg");
+  background-size: cover;
+
+}
+
+#tecnologias {
+  background-image: url("../img/tecnologias.jpeg");
+  background-size: cover;
+}
+
+#peliculas {
+  background-image: url("../img/viaje.jpeg");
+  background-size: cover;
+}
+
+.li-proyectos
+{
+  color: orangered;
+}
+
+#zona-peliculas
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#zona-peliculas h2 
+{
+  color: orangered;
+}
+
+.contenedor-peliculas
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#tabla
+{
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+table
+{
+  background: #84a98c;
+  border: #2f3e46 1px solid;
+}
+
+th
+{
+  padding: 5px;
+  font-weight: bold;
+  background: #ff5722;
+  border: #2f3e46 1px solid;
+}
+
+td
+{
+  padding: 5px;
+  border: #2f3e46 1px solid;
+}
+
+#contacto
+{
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+#button-form
+{
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #d9d9d9;
+  background: #2f3e46;
+} 
+
+footer{
+  padding: 50px;
+  width: 100%;
+  height: auto;
+  color: #d9d9d9;
+  background-color: black;
+}
+
+@media (min-width: 650px) and (max-width: 880px)
+{
+  aside
+  {
+    display: none;
+  }
+
+  main
+  {
+    width: 100%;
+  }
+}
+
+@media (max-width:649px) 
+{
+  header
+  {
+  flex-direction: column;
+  }
+  .contenedor-articulo
+  {
+    flex-direction: column;
+  }
+  aside
+  {
+    display: none;
+  }
+
+  main
+  {
+    width: 100%;
+  }
+}

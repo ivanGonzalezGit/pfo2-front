@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Portafolio de Iván González</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae9d2c6195.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+
+        <header>
+
+            <div id="div-logo">
+                <img id="foto-logo" src="img/ivan.jpeg" alt="foto de Iván">
+            </div>
+
+            <div id="title">
+                <h1>Portafolio de Iván González</h1>
+            </div>
+
+        </header>
+<!-- Se duplicaron los enlaces de la barra lateral en el navbar para poder acceder a las distintas secciones de la landing page -->
+        <nav>
+            <a href="#sobre-mi">Sobre Mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#peliculas">Películas</a>
+            <a href="#seccion-contacto">Contacto</a>
+        </nav>
+<!-- Puse una barra lateral para graficar la etiquéta semántica 'aside' y seguir la estructura clásica de maquetación HTML
+
+Se eligió una lista desplazable para darle navegabilidad a la página -->
+        <aside id="aside">
+            <div id="lista-desplazable">
+                <ul>
+                    <li><a href="#sobre-mi">Sobre Mi</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#peliculas">Películas</a> </li>
+                    <li><a href="#seccion-contacto">Contacto</a> </li><br><br>
+                    <li><a href="#title">Ir arriba</a></li>
+                </ul>
+
+            </div>
+        </aside>
+
+        <main id="main">
+            <article>
+
+                <section>
+                    <div id="sobre-mi" class="div-subtitulos">
+                        <h2>Sobre Mi</h2>
+                    </div>
+                    <div class="contenedor-articulo">
+                        <div class="div-imagen-artículo">
+                            <img class="fotos" src="img/bioquimica.jpeg" alt="Bioquímica">
+                        </div>
+                        <div class="div-parrafo">
+                            <p>
+                                En lo personal, Somos una familia de cuatro, con mis dos nenas y mi mujer. <br><br>
+                                En lo que respecta a mi Trabajo, conformo un grupo que recolecta información, la procesa y distribuye con el fin de optimizar la toma de deciciones. <br><br>
+                                En el aspecto académico, realicé cursos de Big Data, Front-End y Diseño UX/UI de Talento Tech. Back End PHP en la universidad de Rosario. Actualmente, estoy estudiando la Tecnicatura en Desarrollo de Software, donde curso el segundo año.<br><br>
+                                Me interesa la Bioquímica, la investigación criminal, la política local, la geopolítica, el periodismo y la programación.<br><br>
+                                Mi misión como programador es crear una empresa con gente de diferentes áreas para brindar asesoría sobre seguridad para empresas Pyme.
+                            </p>
+                        </div>   
+                    </div>
+<!-- Se eligieron tarjetas de disposición vertical para facilitar la disposicion responsive y que entraran más tarjetas en el contenedor-->
+                    <div id="tarjetas">
+
+                        <div class="tarjeta">
+                            <div class="foto-tarjeta">
+                                <img src="img/quimica.jpeg" alt="tarjeta1">
+                            </div>
+                            <div class="parrafo-tarjeta">
+                                <h2>Química</h2>
+                                <p>Soy un apasionado de las ciencias duras, entre ellas la matemática, química y física,</p>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta">
+                            <img src="img/lenguajeC.jpeg" alt="tarjeta2">
+                            <div class="parrafo-tarjeta">
+                                <h2>Programación</h2>
+                                <p>Desde finales de los '80, lenguajes como Basic 2.0 y Logo despertaron mi curiosidad por la programación</p>
+                            </div>
+                        </div>     
+
+                        <div class="tarjeta">
+                            <img src="img/poli.jpeg" alt="tarjeta3">
+                            <div class="parrafo-tarjeta">
+                                <h2>Investigación Criminal</h2>
+                                <p>Investigar significa seguir la huella. Es un hilo conductor transversal a todas las actividades que me interesan.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section>
+                    <div id="proyectos" class="div-subtitulos">
+                        <h2>Proyectos</h2>
+                    </div>
+                        <ul>
+                            <a href="https://www.figma.com/design/0MQiU8Rb3hQq0Qn9t1xe6m/Task-Flujo-Iv%C3%A1n-Gonz%C3%A1lez?node-id=0-1&p=f&t=sUUYHV5qt8ujPP0C-0"><li class="li-proyectos">Flujo - Figma de Tp UX/UI</li></a>
+
+                            <a href="https://github.com/ivanGonzalezGit/mobile"><li class="li-proyectos">Código TP Mobile</li></a>
+
+                            <a href="https://deepnote.com/app/prueba-e5bf/TP-2-Ivan-Gonzalez-22614-eeb92970-ee22-452c-963b-d8d091bf88b8?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=data-app&utm_content=eeb92970-ee22-452c-963b-d8d091bf88b8"><li class="li-proyectos">TP Análisis de datos</li></a>
+                        </ul>
+                </section>
+
+                <section>
+                    <div id="tecnologias" class="div-subtitulos">
+                    </div>
+                    <div id="tabla">
+                        <table>
+                            <tr>
+                                <th>Aprendidas</th><th>Por aprender</th><th>Hobbies</th>
+                            </tr>
+                            <tr>
+                                <td>Python</td><td>C, C++</td><td>Fútbol</td>
+                            </tr>
+                            <tr>
+                                <td>c#</td><td>Java</td><td>Paddle</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td><td colspan="2"></td>
+                            </tr>
+                        </table>
+                    </div>
+                        
+                </section>
+<!-- Se utilizó el mismo tipo de tarjeta que en la sección 'Sobre Mi' para reutilizar el código y que tengan congruencia en el diseño -->
+                <section id="zona-peliculas">
+                    <div id="peliculas" class="div-subtitulos"><h2>Películas y Series Favoritas</h2></div>
+                    <div class="contenedor-peliculas">
+
+                        <div class="tarjeta">
+                            <img src="img/matrix.jpg" alt="Matrix" class="fotos">
+                            <div class="parrafo-tarjeta">
+                                <h2>The Matrix</h2>
+                                <p>Una metáfora del sometimiento que ejerce el sistema sobre la gente común. Spoiler: Neo es un programa</p>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta">
+                            <img src="img/hannibal.jpg" alt="Hannibal" class="fotos">
+                            <div class="parrafo-tarjeta">
+                                <h2>Hannibal</h2>
+                                <p>Un psicópata que ayuda en la investigación criminal haciendo perfiles psicológicos. Basada en libros de perfilamiento criminal del FBI</p>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta">
+                            <img src="img/eterno.jpg" alt="eterno_resplandor" class="fotos">
+                            <div class="parrafo-tarjeta">
+                                <h2>Eterno Resplandor</h2>
+                                <p>Una pareja que a pesar de borrarse la memoria siempre se van a volver a encontrar. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenedor-peliculas">
+                        <div class="tarjeta">
+                            <img src="img/mr_robot.jpeg" alt="mr_robot" class="fotos">
+                            <div class="parrafo-tarjeta">
+                                <h2>Mr. Robot</h2>
+                                <p>Un programador con multiples personalidades combate el mal muñido de un teclado</p>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta">
+                            <img src="img/dark.jpeg" alt="Dark" class="fotos">
+                            <div class="parrafo-tarjeta">
+                                <h2>Dark</h2>
+                                <p>Un pueblo entero obligado a existir dento de un ciclo eterno de tiempo y espacio. </p>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta">
+                            <img src="img/devils.jpeg" alt="Devils" class="fotos">
+                            <div class="parrafo-tarjeta">
+                                <h2>Devils</h2>
+                                <p>Una óptica sobre como los bancos generan crisis en los paises para aumentar sus ganancias</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </section>
+
+                <section id="seccion-contacto">
+                    <div class="div-subtitulos">
+                            <h2>Contacto</h2>
+                    </div>
+
+                    <div id="contacto">
+                        <form action="/" method="get">
+                            <label for="nombre">Nombre</label><br>
+                            <input type="text" id="nombre"><br><br>
+                            <label for="apellido">Apellido</label><br>
+                            <input type="text" id="apellido"><br><br>
+                            <label for="telefono">Teléfono</label><br>
+                            <input type="number" id="telefono"><br><br>
+                            <label for="mail">Mail</label><br>
+                            <input type="email" id="mail"><br><br>
+                            <input type="submit" id="button-form">
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </main>
+    
+        <footer>
+            <i class="fa-regular fa-user" style="color: #d9d9d9;"></i>  Iván González<br><br>
+            <i class="fa-solid fa-phone" style="color: #d9d9d9;"></i>  1171447574<br><br>
+            <i class="fa-regular fa-envelope" style="color: #d9d9d9;"></i>  ivanfgonzalezruiz@gmail.com<br><br>
+            <i class="fa-brands fa-instagram" style="color: #d9d9d9;"></i>  @ivangonzalez387
+        </footer>
+
+    </div>
+</body>
+</html>
