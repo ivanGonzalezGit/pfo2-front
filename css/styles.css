@@ -19,11 +19,10 @@ body
 #container 
 {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
-
 }
 
 ul
@@ -235,7 +234,7 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 #zona-peliculas h2 
@@ -249,7 +248,7 @@ display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 #tabla
@@ -323,10 +322,16 @@ footer{
   {
   flex-direction: column;
   }
+
+  nav{
+    flex-direction: column;
+  }
+
   .contenedor-articulo
   {
     flex-direction: column;
   }
+
   aside
   {
     display: none;
