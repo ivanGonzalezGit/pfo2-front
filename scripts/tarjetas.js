@@ -70,7 +70,28 @@ export function colocarTarjetaEnContenedor(contTarjeta, objeto)
         </div>`;
 
         contTarjeta.appendChild(tarjeta); 
+
+        tarjeta.addEventListener("mouseover", cambiarColor, false);
+        tarjeta.addEventListener("mouseout", devolverColor);
+        tarjeta.addEventListener("click", mostrarClick);
+
     }
 }
 
-/*falta ver por que no repite las tarjetas y automatizar la lectura del array*/
+function cambiarColor(event)
+{//uso currentTarget para que los cambios hagan referencia al div entero y no a cada uno de los elementos hijos
+    let tarjeta = event.currentTarget;
+    tarjeta.className = "tarjeta tarjetaOscura";
+}
+
+function devolverColor(event)
+{
+    let tarjeta = event.currentTarget;
+    tarjeta.className = "tarjeta tarjetaClara";
+}
+
+function mostrarClick(event)
+{
+    let tarjeta = event.currentTarget;
+    alert("hiciste click");
+}
