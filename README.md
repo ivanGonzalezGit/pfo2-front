@@ -8,7 +8,9 @@ JS
 
 2- Se cambiaron los estilos de las tarjetas cambiando las clases. Esto se hizo para poder arreglar el comportamiento anterior realizado con la pseudoclase :hover, que cuando pasaba el mouse por encima cambiaba los colores de las tarjetas de a partes, según el elemento que señalaba el mouse. Para que JS interprete al elemento tarjeta tomando como referencia al div padre, se tuvo que tomar al objeto Element con la siguiente línea de código: let tarjeta = event.currentTarget;
 
-Se agregó un botón cerrarMenu para sacar el menú vertical de la página.
+3- Se agregó un botón cerrarMenu para sacar el menú vertical de la página.
+
+4- Se generaron las comprobaciones de los campos del formulario mediante JS.
 
 Agregar boton ver trailer que dispare un div que tenga el video como background y un encabezado con el nombre de la pelicula y un boton para cerrar el trailer y los botones de control de video.
 
