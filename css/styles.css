@@ -312,10 +312,18 @@ td
   margin: auto;
   width: 400px;
   height: 400px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-#button-form
+.parrafoError
+{
+  padding: 5px;
+  color: #ff5722;
+}
+
+.button-form
 {
   padding: 10px 30px;
   border-radius: 5px;
