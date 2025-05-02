@@ -69,5 +69,7 @@ export function enviarFormulario(e)
     {
         e.preventDefault();
         alert ("datos inválidos");
+    } else {
+        alert("El formulario se envió correctamente");
     }
 }

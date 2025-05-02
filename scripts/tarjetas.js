@@ -17,7 +17,7 @@ export let tarjetasPersonales = [
     {
         foto : "img/poli.jpeg",
         nombre : "Investigación Criminal",
-        descripcion : ">Investigar significa seguir la huella. Es un hilo conductor transversal a todas las actividades que me interesan."
+        descripcion : "Investigar significa seguir la huella. Es un hilo conductor transversal a todas las actividades que me interesan."
     }
 ];
 
